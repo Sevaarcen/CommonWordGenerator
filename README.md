@@ -1,4 +1,4 @@
-# Common Word Generator
+# Common WordS Generator
 
 This program is meant to be used alongside my program "[Heated Words](https://github.com/Sevaarcen/HeatedWords)".
 
