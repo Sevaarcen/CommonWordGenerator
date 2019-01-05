@@ -126,7 +126,7 @@ fn main() {
     for start in 0..common_words.len() {
         let mut end = start;
         while end < common_words.len() { //use a while loop rather than for since removing changes index
-            if start != end && common_words[start] == common_words[end] {
+            if start != end && common_words[start].eq_ignore_ascii_case(common_words[end].as_str()) {
                 common_words.remove(end);
             } else {
                 end += 1;
