@@ -1,5 +1,5 @@
 [package]
-name = "blacklist_generator"
+name = "common_words_generator"
 version = "1.0.0"
 authors = ["Sevaarcen <coleipod@gmail.com>"]
 edition = "2018"
